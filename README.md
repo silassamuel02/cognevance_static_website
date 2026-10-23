@@ -70,6 +70,23 @@ The planned monitoring setup uses an external uptime monitoring service to check
 
 HTTPS, public accessibility, and monitoring notifications will be verified after deployment.
 
+
+## Security and Domain Configuration
+
+### HTTPS
+The deployed website will use HTTPS to encrypt communication between the browser and the hosting platform. HTTPS availability will be verified after deployment.
+
+### Custom Domain
+Custom-domain configuration will be evaluated during deployment. The project may initially use the hosting platform's default domain to avoid unnecessary costs.
+
+### Source Code Security
+- No passwords, API keys, or private credentials should be committed to the repository.
+- GitHub repository permissions should be reviewed.
+- External links and website functionality should be tested before release.
+
+### Verification Status
+Security and domain configuration remain pending until the website is deployed and the settings have been verified.
+
 ## Project Status
 
 - [x] Initial website created
