@@ -1,0 +1,88 @@
+# CloudLaunch — Cloud Computing & DevOps
+
+A responsive static website built as part of the Cognevance Technologies Cloud Computing & DevOps internship.
+
+## Project Overview
+
+CloudLaunch demonstrates the fundamentals of static website development, version control, cloud hosting, and website monitoring.
+
+The project is developed using HTML, CSS, and JavaScript, with Git and GitHub used to manage source code and track changes.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+
+## Project Structure
+
+```text
+cognevance_static_website/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Features
+
+- Responsive website layout
+- Minimal black and yellow visual design
+- Navigation between page sections
+- JavaScript interaction test
+- Version-controlled source code
+
+## Local Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/silassamuel02/cognevance_static_website.git
+   ```
+
+2. Open the project folder.
+
+3. Open `index.html` in a browser, or use the VS Code Live Server extension.
+
+## Version Control
+
+Git is used to track project changes, and GitHub hosts the source repository.
+
+Changes can be saved with:
+
+```bash
+git add .
+git commit -m "Describe your changes"
+git push
+```
+
+## Deployment
+
+Cloud hosting and public deployment will be configured after the website and project documentation are ready.
+
+**Deployment URL:** To be added after deployment.
+
+## Monitoring and Security
+
+The planned monitoring setup uses an external uptime monitoring service to check the availability of the published website.
+
+HTTPS, public accessibility, and monitoring notifications will be verified after deployment.
+
+## Project Status
+
+- [x] Initial website created
+- [x] Git repository initialized
+- [x] Source code pushed to GitHub
+- [x] Website redesign completed
+- [ ] Responsive testing completed
+- [ ] Cloud deployment
+- [ ] Uptime monitoring
+- [ ] Final screenshots and project report
+
+## Internship
+
+**Organization:** Cognevance Technologies  
+**Domain:** Cloud Computing & DevOps  
+**Project:** Cloud-Based Static Website Deployment
