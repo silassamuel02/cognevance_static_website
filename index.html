@@ -4,32 +4,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CloudLaunch | DevOps Project</title>
+  <meta name="description" content="CloudLaunch, a hands-on cloud computing and DevOps project.">
+  <title>CloudLaunch — Cloud & DevOps</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <h2>CloudLaunch</h2>
-    <span>My First Cloud Project</span>
+
+  <header class="navbar">
+    <a class="brand" href="#home">cloudlaunch<span>®</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <span class="edition">PERSONAL PROJECT / 001</span>
   </header>
 
   <main>
-    <section class="hero">
-      <p class="tag">CLOUD COMPUTING & DEVOPS</p>
-      <h1>Built locally.<br>Deployed to the cloud.</h1>
-      <p class="description">
-        My first cloud deployment project, built with HTML, CSS,
-        and JavaScript as part of my DevOps learning journey.
-      </p>
-      <button id="deployBtn">Test Interaction</button>
-      <p id="message" aria-live="polite"></p>
+    <section class="hero" id="home">
+      <p class="eyebrow"><span></span> LEARNING IN PUBLIC · 2026</p>
+
+      <h1>
+        From my<br>
+        machine to<br>
+        <span>the cloud.</span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="intro">
+          A hands-on experiment in cloud computing and DevOps.
+          Building a website, understanding how it works, and
+          learning what it takes to keep it online.
+        </p>
+
+        <a href="#about" class="text-link">
+          A little more about this project <span>↘</span>
+        </a>
+      </div>
+
+      <div class="hero-mark" aria-hidden="true">01</div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-label">01 / THE IDEA</div>
+
+      <div class="section-content">
+        <h2>Less talking.<br><span>More building.</span></h2>
+
+        <p>
+          CloudLaunch started with a simple goal: understand what
+          happens after writing code. From version control to cloud
+          hosting and uptime monitoring, this project follows the
+          process one step at a time.
+        </p>
+
+        <p>
+          No complicated frameworks for the sake of it. Just the
+          fundamentals, built properly and documented along the way.
+        </p>
+      </div>
+    </section>
+
+    <section class="process section" id="process">
+      <div class="section-label">02 / THE WORK</div>
+
+      <div class="section-content">
+        <h2>What goes<br>into <span>the build.</span></h2>
+
+        <div class="process-list">
+          <article class="process-item">
+            <span class="number">01</span>
+            <div>
+              <h3>Design & development</h3>
+              <p>A responsive website built with HTML, CSS and JavaScript.</p>
+            </div>
+            <span class="status">IN PROGRESS</span>
+          </article>
+
+          <article class="process-item">
+            <span class="number">02</span>
+            <div>
+              <h3>Version control</h3>
+              <p>Using Git and GitHub to track changes and manage source code.</p>
+            </div>
+            <span class="status done">COMPLETED</span>
+          </article>
+
+          <article class="process-item">
+            <span class="number">03</span>
+            <div>
+              <h3>Cloud deployment</h3>
+              <p>Hosting the finished website and configuring HTTPS.</p>
+            </div>
+            <span class="status">UP NEXT</span>
+          </article>
+
+          <article class="process-item">
+            <span class="number">04</span>
+            <div>
+              <h3>Monitoring & documentation</h3>
+              <p>Checking uptime, recording the workflow and preparing the project report.</p>
+            </div>
+            <span class="status">UP NEXT</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="note section">
+      <div class="section-label">03 / A SMALL CHECK</div>
+
+      <div class="section-content">
+        <h2>Still learning.<br><span>Still testing.</span></h2>
+        <p>
+          A project is only useful when things actually work.
+          Here's a quick check that the JavaScript on this page is running.
+        </p>
+
+        <button id="testBtn" type="button">
+          Run a quick test <span>↗</span>
+        </button>
+
+        <p id="testResult" role="status" aria-live="polite"></p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>CloudLaunch · Learning by building · 2026</p>
+  <footer id="contact">
+    <a class="brand" href="#home">cloudlaunch<span>®</span></a>
+    <p>Built from scratch. Learning as I go.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>

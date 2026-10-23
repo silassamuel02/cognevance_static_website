@@ -1,8 +1,10 @@
 
-const deployBtn = document.getElementById("deployBtn");
-const message = document.getElementById("message");
+const testBtn = document.getElementById("testBtn");
+const testResult = document.getElementById("testResult");
 
-deployBtn.addEventListener("click", () => {
-  message.textContent =
-    "Success! Your website is working locally.";
+testBtn.addEventListener("click", () => {
+  const time = new Date().toLocaleTimeString();
+
+  testResult.textContent =
+    `Test passed at ${time}. JavaScript is working correctly.`;
 });
