@@ -376,3 +376,117 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+
+.architecture-list {
+  margin-top: 38px;
+}
+
+.architecture-item {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  gap: 18px;
+  padding: 23px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.architecture-item > span {
+  color: var(--yellow);
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+.architecture-item h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.architecture-item p {
+  color: var(--grey);
+  font-size: 13px;
+  line-height: 1.8;
+  max-width: 480px;
+}
+
+.flow-line {
+  color: var(--yellow);
+  padding: 3px 0 3px 7px;
+  font-size: 18px;
+}
+
+.architecture-item:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.detail-row {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 20px;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.detail-row > span {
+  color: var(--yellow);
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding-top: 3px;
+}
+
+.detail-row p {
+  color: var(--grey);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.repository-link {
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 1px solid var(--line);
+}
+
+.repository-link p {
+  color: var(--grey);
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.repository-link a {
+  display: inline-block;
+  border-bottom: 1px solid var(--yellow);
+  padding-bottom: 6px;
+  font-size: 13px;
+}
+
+.repository-link a span {
+  color: var(--yellow);
+  margin-left: 8px;
+}
+
+.repository-link a:hover {
+  color: var(--yellow);
+}
+
+@media (max-width: 520px) {
+  .detail-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 16px;
+  }
+
+  nav a {
+    padding: 3px 0;
+  }
+}
