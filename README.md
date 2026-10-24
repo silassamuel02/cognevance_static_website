@@ -85,8 +85,31 @@ Custom-domain configuration will be evaluated during deployment. The project may
 - External links and website functionality should be tested before release.
 
 ### Verification Status
-Security and domain configuration remain pending until the website is deployed and the settings have been verified.
+Security and domain configuration remain pending until the website is deployed and the settings 
+have been verified.
 
+## Uptime Monitoring
+
+### Monitoring Tool
+UptimeRobot will be used to monitor the availability of the deployed CloudLaunch website.
+
+### Planned Configuration
+- **Monitor type:** HTTP(s)
+- **Monitor name:** CloudLaunch
+- **Target:** Public website URL
+- **Purpose:** Check website availability and track response time
+- **Notifications:** Email alerts, subject to account configuration and plan limits
+
+### Verification Procedure
+1. Deploy the website to a public hosting platform.
+2. Add the public website URL to UptimeRobot.
+3. Confirm that the monitor reports the website as available.
+4. Review the response-time information.
+5. Verify alert configuration.
+6. Record the monitoring results in the project report.
+
+### Status
+Monitoring configuration and live verification are pending deployment.
 ## Project Status
 
 - [x] Initial website created
