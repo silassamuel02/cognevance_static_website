@@ -1,22 +1,38 @@
 # CloudLaunch — Cloud Computing & DevOps
 
-A responsive static website built as part of the Cognevance Technologies Cloud Computing & DevOps internship.
+A responsive static website developed as part of the Cognevance Technologies Cloud Computing & DevOps internship.
 
-## Project Overview
+**Live Website:** https://silassamuel02.github.io/cognevance_static_website/
 
-CloudLaunch demonstrates the fundamentals of static website development, version control, cloud hosting, and website monitoring.
+**GitHub Repository:** https://github.com/silassamuel02/cognevance_static_website
 
-The project is developed using HTML, CSS, and JavaScript, with Git and GitHub used to manage source code and track changes.
+## 1. Project Overview
 
-## Technologies Used
+CloudLaunch demonstrates the fundamentals of developing, version-controlling, hosting, and monitoring a static website.
+
+The project was built using HTML, CSS, and JavaScript, with Git and GitHub for source-code management. GitHub Pages provides public hosting, while UptimeRobot monitors website availability.
+
+## 2. Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 - Git
 - GitHub
+- GitHub Pages
+- UptimeRobot
 
-## Project Structure
+## 3. Features
+
+- Responsive layout for desktop and mobile screens
+- Minimal black-and-yellow visual design
+- Navigation between website sections
+- Interactive JavaScript test
+- Public cloud hosting through GitHub Pages
+- HTTPS access
+- External uptime monitoring and email notification testing
+
+## 4. Project Structure
 
 ```text
 cognevance_static_website/
@@ -26,15 +42,7 @@ cognevance_static_website/
 └── README.md
 ```
 
-## Features
-
-- Responsive website layout
-- Minimal black and yellow visual design
-- Navigation between page sections
-- JavaScript interaction test
-- Version-controlled source code
-
-## Local Setup
+## 5. Local Setup
 
 1. Clone the repository:
 
@@ -42,86 +50,62 @@ cognevance_static_website/
    git clone https://github.com/silassamuel02/cognevance_static_website.git
    ```
 
-2. Open the project folder.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` using a browser or the Live Server extension.
 
-3. Open `index.html` in a browser, or use the VS Code Live Server extension.
+No package installation is required for this static website.
 
-## Version Control
+## 6. Deployment
 
-Git is used to track project changes, and GitHub hosts the source repository.
+The website is hosted using GitHub Pages.
 
-Changes can be saved with:
+**Live URL:** https://silassamuel02.github.io/cognevance_static_website/
 
-```bash
-git add .
-git commit -m "Describe your changes"
-git push
-```
+The published website was opened successfully, and its JavaScript interaction was tested on the live version.
 
-## Deployment
+HTTPS access was also verified in the browser.
 
-Cloud hosting and public deployment will be configured after the website and project documentation are ready.
+## 7. Uptime Monitoring
 
-**Deployment URL:** To be added after deployment.
+**Monitoring service:** UptimeRobot
 
-## Monitoring and Security
+**Monitor type:** HTTP(S)
 
-The planned monitoring setup uses an external uptime monitoring service to check the availability of the published website.
+**Target:** CloudLaunch public website
 
-HTTPS, public accessibility, and monitoring notifications will be verified after deployment.
+**Check interval:** 5 minutes
 
+The monitor reported the website as Up. The dashboard displayed 100% availability for its selected reporting periods at the time of verification. Since the monitor was newly created, these figures should not be interpreted as proof of long-term availability.
 
-## Security and Domain Configuration
+An email notification test was performed, and the test email was received.
 
-### HTTPS
-The deployed website will use HTTPS to encrypt communication between the browser and the hosting platform. HTTPS availability will be verified after deployment.
+## 8. Security
 
-### Custom Domain
-Custom-domain configuration will be evaluated during deployment. The project may initially use the hosting platform's default domain to avoid unnecessary costs.
+- The published website uses HTTPS.
+- The repository should not contain passwords, private tokens, or API credentials.
+- Public links and website functionality were tested.
+- No backend or database is required for this static website.
 
-### Source Code Security
-- No passwords, API keys, or private credentials should be committed to the repository.
-- GitHub repository permissions should be reviewed.
-- External links and website functionality should be tested before release.
+## 9. Testing
 
-### Verification Status
-Security and domain configuration remain pending until the website is deployed and the settings 
-have been verified.
+The following checks were performed:
 
-## Uptime Monitoring
+- Desktop and mobile layout
+- Navigation links
+- JavaScript interaction
+- Browser console
+- Public website accessibility
+- HTTPS access
+- UptimeRobot monitor status
+- Email notification test
 
-### Monitoring Tool
-UptimeRobot will be used to monitor the availability of the deployed CloudLaunch website.
+## 10. Limitations and Future Improvements
 
-### Planned Configuration
-- **Monitor type:** HTTP(s)
-- **Monitor name:** CloudLaunch
-- **Target:** Public website URL
-- **Purpose:** Check website availability and track response time
-- **Notifications:** Email alerts, subject to account configuration and plan limits
+- A custom domain has not been configured.
+- Monitoring history is limited to the period since the monitor was created.
+- Additional performance testing and long-term availability observations can be added in future iterations.
 
-### Verification Procedure
-1. Deploy the website to a public hosting platform.
-2. Add the public website URL to UptimeRobot.
-3. Confirm that the monitor reports the website as available.
-4. Review the response-time information.
-5. Verify alert configuration.
-6. Record the monitoring results in the project report.
-
-### Status
-Monitoring configuration and live verification are pending deployment.
-## Project Status
-
-- [x] Initial website created
-- [x] Git repository initialized
-- [x] Source code pushed to GitHub
-- [x] Website redesign completed
-- [ ] Responsive testing completed
-- [ ] Cloud deployment
-- [ ] Uptime monitoring
-- [ ] Final screenshots and project report
-
-## Internship
+## 11. Internship Information
 
 **Organization:** Cognevance Technologies  
 **Domain:** Cloud Computing & DevOps  
